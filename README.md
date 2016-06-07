@@ -3,11 +3,11 @@ NeoDark is a very dark colorscheme based on the color pallet of [vim-gotham](git
 This colourscheme was developed with a minimal [NeoVim](neovim.io) config in mind. Currently only terminal vim is supported.
 
 ## Screenshots
-C++
-![screenshot1](github.com/CallumHoward/vim-neodark/raw/master/screenshot1.jpg) 
+C++ 
+![screenshot1](https://raw.githubusercontent.com/CallumHoward/vim-neodark/master/screenshot1.png) 
 
-Python diff
-![screenshot1](github.com/CallumHoward/vim-neodark/raw/master/screenshot2.jpg) 
+Python diff 
+![screenshot1](https://raw.githubusercontent.com/CallumHoward/vim-neodark/master/screenshot2.png) 
 
 
 ## Installation
