@@ -3,7 +3,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name = "neogotham"
+let g:colors_name = "neodark"
 
 highlight SpecialKey     ctermfg=4
 highlight link           EndOfBuffer NonText
