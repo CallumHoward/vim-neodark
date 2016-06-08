@@ -12,7 +12,7 @@ let g:colors_name = "neodark"
 highlight SpecialKey     ctermfg=1
 highlight link           EndOfBuffer NonText
 highlight TermCursor     cterm=reverse
-highlight TermCursorNC   cleared
+"highlight TermCursorNC   cleared
 highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
