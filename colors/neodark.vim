@@ -9,7 +9,7 @@ endif
 let g:colors_name = "neodark"
 
 
-highlight SpecialKey     ctermfg=1
+highlight SpecialKey     ctermfg=12
 highlight link           EndOfBuffer NonText
 highlight TermCursor     cterm=reverse
 "highlight TermCursorNC   cleared
