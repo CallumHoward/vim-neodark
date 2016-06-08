@@ -1,14 +1,18 @@
 set background=dark
-hi clear
+
+highlight clear
+
 if exists("syntax_on")
     syntax reset
 endif
+
 let g:colors_name = "neodark"
 
-highlight SpecialKey     ctermfg=4
+
+highlight SpecialKey     ctermfg=1
 highlight link           EndOfBuffer NonText
 highlight TermCursor     cterm=reverse
-"highlight TermCursorNC   cleared
+highlight TermCursorNC   cleared
 highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
@@ -39,13 +43,13 @@ highlight DiffText       cterm=none ctermfg=191 ctermbg=0
 "highlight SpellCap       ctermbg=81
 "highlight SpellRare      ctermbg=225
 "highlight SpellLocal     ctermbg=14
-"highlight Pmenu          ctermfg=0 ctermbg=225
-"highlight PmenuSel       ctermfg=0 ctermbg=7
-"highlight PmenuSbar      ctermbg=248
-"highlight PmenuThumb     ctermbg=0
-"highlight TabLine        cterm=underline ctermfg=0 ctermbg=7
-"highlight TabLineSel     cterm=bold
-"highlight TabLineFill    cterm=reverse
+highlight Pmenu          ctermfg=7 ctermbg=10
+highlight PmenuSel       ctermfg=15 ctermbg=11
+highlight PmenuSbar      ctermbg=10
+highlight PmenuThumb     ctermbg=11
+highlight TabLine        cterm=none ctermfg=7 ctermbg=10
+highlight TabLineSel     cterm=none ctermfg=15 ctermbg=11
+highlight TabLineFill    ctermfg=0 ctermbg=0
 "highlight CursorColumn   ctermbg=7
 highlight CursorLine     cterm=none ctermbg=8
 "highlight ColorColumn    ctermbg=224
@@ -54,7 +58,7 @@ highlight MatchParen     cterm=bold ctermbg=none
 highlight Comment        ctermfg=4
 highlight Constant       ctermfg=1
 highlight Special        ctermfg=5
-highlight Identifier     ctermfg=6
+highlight Identifier     cterm=none ctermfg=6
 highlight Statement      ctermfg=14
 highlight PreProc        ctermfg=5
 highlight Type           ctermfg=2
