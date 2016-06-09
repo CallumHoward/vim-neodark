@@ -24,8 +24,8 @@ highlight LineNr         ctermfg=11
 highlight CursorLineNr   cterm=bold ctermfg=14 ctermbg=8
 highlight Question       ctermfg=2
 highlight StatusLine     cterm=bold,reverse
-highlight StatusLineNC   cterm=reverse
-highlight VertSplit      cterm=reverse
+highlight StatusLineNC   cterm=reverse ctermfg=15 ctermbg=11
+highlight VertSplit      cterm=reverse ctermfg=15
 highlight Title          ctermfg=5
 highlight Visual         ctermbg=12
 highlight WarningMsg     ctermfg=1
@@ -54,7 +54,7 @@ highlight TabLineFill    ctermfg=0 ctermbg=0
 highlight CursorLine     cterm=none ctermbg=8
 "highlight ColorColumn    ctermbg=224
 
-highlight MatchParen     cterm=bold ctermbg=none
+highlight MatchParen     cterm=none ctermbg=none ctermfg=15
 highlight Comment        ctermfg=4
 highlight Constant       ctermfg=1
 highlight Special        ctermfg=5
