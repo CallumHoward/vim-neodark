@@ -30,7 +30,7 @@ highlight Title          ctermfg=5
 highlight Visual         ctermbg=12
 highlight WarningMsg     ctermfg=1
 highlight WildMenu       ctermfg=0 ctermbg=11
-highlight Folded         ctermfg=4 ctermbg=0
+highlight Folded         ctermfg=4 ctermbg=10
 highlight FoldColumn     ctermfg=4 ctermbg=none
 
 highlight DiffAdd        ctermfg=83 ctermbg=10
