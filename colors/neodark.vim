@@ -21,7 +21,7 @@ highlight Search         ctermfg=15 ctermbg=4
 highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
 highlight LineNr         ctermfg=11
-highlight CursorLineNr   cterm=bold ctermfg=14 ctermbg=8
+highlight CursorLineNr   cterm=none ctermfg=14 ctermbg=8
 highlight Question       ctermfg=2
 highlight StatusLine     cterm=bold,reverse
 highlight StatusLineNC   cterm=reverse ctermfg=15 ctermbg=11
