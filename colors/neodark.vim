@@ -39,10 +39,12 @@ highlight DiffDelete     cterm=bold ctermfg=160 ctermbg=10
 highlight DiffText       cterm=none ctermfg=191 ctermbg=0
 "highlight SignColumn     ctermfg=4 ctermbg=248
 "highlight Conceal        ctermfg=7 ctermbg=242
-"highlight SpellBad       ctermbg=224
-"highlight SpellCap       ctermbg=81
-"highlight SpellRare      ctermbg=225
-"highlight SpellLocal     ctermbg=14
+
+highlight SpellBad       cterm=underline ctermbg=none ctermfg=167
+highlight SpellCap       cterm=underline ctermbg=none ctermfg=167
+highlight SpellRare      cterm=underline ctermbg=none ctermfg=none
+highlight SpellLocal     cterm=underline ctermbg=none ctermfg=none
+
 highlight Pmenu          ctermfg=7 ctermbg=10
 highlight PmenuSel       ctermfg=15 ctermbg=11
 highlight PmenuSbar      ctermbg=10
