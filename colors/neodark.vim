@@ -16,8 +16,8 @@ highlight TermCursor     cterm=reverse
 highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
-highlight IncSearch      ctermfg=15 ctermbg=6
-highlight Search         ctermfg=15 ctermbg=4
+highlight IncSearch      cterm=none ctermfg=15 ctermbg=6
+highlight Search         cterm=none ctermfg=15 ctermbg=4
 highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
 highlight LineNr         ctermfg=11
@@ -64,7 +64,7 @@ highlight PreProc        ctermfg=5
 highlight Type           ctermfg=2
 highlight Underlined     cterm=underline ctermfg=5
 highlight Ignore         ctermfg=15
-highlight Error          ctermfg=15 ctermbg=9
+highlight Error          ctermfg=15 ctermbg=none cterm=underline
 highlight Todo           ctermfg=0 ctermbg=11
 highlight link           String         Constant
 highlight link           Character      Constant
