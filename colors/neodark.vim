@@ -16,8 +16,8 @@ highlight TermCursor     cterm=reverse
 highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
-highlight IncSearch      cterm=none ctermfg=15 ctermbg=6
-highlight Search         cterm=none ctermfg=15 ctermbg=4
+highlight IncSearch      ctermfg=3 ctermbg=8 cterm=underline
+highlight Search         ctermfg=3 ctermbg=8 cterm=underline
 highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
 highlight LineNr         ctermfg=11
