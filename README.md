@@ -1,6 +1,6 @@
 # NeoDark
 NeoDark is a very dark colorscheme based on the color pallet of [vim-gotham](https://github.com/whatyouhide/vim-gotham).
-This colourscheme was developed with a minimal [NeoVim](neovim.io) config in mind. Currently only terminal vim is supported.
+This colourscheme was developed with a minimal [NeoVim](https://neovim.io) config in mind. Currently only terminal vim is supported.
 
 ## Screenshots
 C++ 
