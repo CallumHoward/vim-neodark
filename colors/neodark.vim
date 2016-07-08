@@ -37,7 +37,7 @@ highlight DiffAdd        ctermfg=83 ctermbg=10
 highlight DiffChange     ctermbg=10
 highlight DiffDelete     cterm=bold ctermfg=160 ctermbg=10
 highlight DiffText       cterm=none ctermfg=191 ctermbg=0
-highlight SignColumn     ctermfg=11
+highlight SignColumn     ctermfg=11 ctermbg=none
 "highlight Conceal        ctermfg=7 ctermbg=242
 
 highlight SpellBad       cterm=underline ctermbg=none ctermfg=167
