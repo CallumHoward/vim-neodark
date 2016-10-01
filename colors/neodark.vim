@@ -93,6 +93,8 @@ highlight Todo           ctermfg=0 ctermbg=11
 "highlight link           SpecialComment Special
 "highlight link           Debug          Special
 
-highlight Function ctermfg=14
-highlight cCustomClass ctermfg=15
+highlight Function ctermfg=7
+highlight cCustomClass ctermfg=14
 highlight cppSTLnamespace ctermfg=13
+highlight cppSTLconstant ctermfg=14
+highlight cppSTLtype ctermfg=14
