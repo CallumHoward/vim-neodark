@@ -56,7 +56,7 @@ highlight TabLineFill    ctermfg=0 ctermbg=0
 highlight CursorLine     cterm=none ctermbg=8
 "highlight ColorColumn    ctermbg=224
 
-highlight MatchParen     cterm=none ctermbg=none ctermfg=15
+highlight MatchParen     cterm=bold ctermbg=none ctermfg=15
 highlight Comment        ctermfg=4
 highlight Constant       ctermfg=1
 highlight Special        ctermfg=5
@@ -68,27 +68,31 @@ highlight Underlined     cterm=underline ctermfg=5
 highlight Ignore         ctermfg=15
 highlight Error          ctermfg=15 ctermbg=none cterm=underline
 highlight Todo           ctermfg=0 ctermbg=11
-highlight link           String         Constant
-highlight link           Character      Constant
-highlight link           Number         Constant
-highlight link           Boolean        Constant
-highlight link           Float          Number
-highlight link           Function       Identifier
-highlight link           Conditional    Statement
-highlight link           Repeat         Statement
-highlight link           Label          Statement
-highlight link           Operator       Statement
-highlight link           Keyword        Statement
-highlight link           Exception      Statement
-highlight link           Include        PreProc
-highlight link           Define         PreProc
-highlight link           Macro          PreProc
-highlight link           PreCondit      PreProc
-highlight link           StorageClass   Type
-highlight link           Structure      Type
-highlight link           Typedef        Type
-highlight link           Tag            Special
-highlight link           SpecialChar    Special
-highlight link           Delimiter      Special
-highlight link           SpecialComment Special
-highlight link           Debug          Special
+"highlight link           String         Constant
+"highlight link           Character      Constant
+"highlight link           Number         Constant
+"highlight link           Boolean        Constant
+"highlight link           Float          Number
+"highlight link           Function       Identifier
+"highlight link           Conditional    Statement
+"highlight link           Repeat         Statement
+"highlight link           Label          Statement
+"highlight link           Operator       Statement
+"highlight link           Keyword        Statement
+"highlight link           Exception      Statement
+"highlight link           Include        PreProc
+"highlight link           Define         PreProc
+"highlight link           Macro          PreProc
+"highlight link           PreCondit      PreProc
+"highlight link           StorageClass   Type
+"highlight link           Structure      Type
+"highlight link           Typedef        Type
+"highlight link           Tag            Special
+"highlight link           SpecialChar    Special
+"highlight link           Delimiter      Special
+"highlight link           SpecialComment Special
+"highlight link           Debug          Special
+
+highlight Function ctermfg=14
+highlight cCustomClass ctermfg=15
+highlight cppSTLnamespace ctermfg=13
