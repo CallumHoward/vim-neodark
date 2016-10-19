@@ -93,8 +93,13 @@ highlight Todo           ctermfg=0 ctermbg=11
 "highlight link           SpecialComment Special
 "highlight link           Debug          Special
 
+" tweaks for octol/vim-cpp-enhanced-highlight
 highlight Function ctermfg=7
 highlight cCustomClass ctermfg=14
 highlight cppSTLnamespace ctermfg=13
 highlight cppSTLconstant ctermfg=14
 highlight cppSTLtype ctermfg=14
+
+" neovimhaskell/haskell-vim
+highlight Structure ctermfg=14
+highlight Delimiter ctermfg=14
