@@ -101,5 +101,10 @@ highlight cppSTLconstant ctermfg=14
 highlight cppSTLtype ctermfg=14
 
 " neovimhaskell/haskell-vim
-highlight Structure ctermfg=14
-highlight Delimiter ctermfg=14
+highlight haskellSeparator ctermfg=14
+highlight haskellDelimiter ctermfg=14
+highlight haskellWhere ctermfg=14
+highlight haskellLet ctermfg=14
+highlight haskellDeclKeyword ctermfg=14
+highlight haskellDecl ctermfg=14
+highlight haskellForeignKeywords ctermfg=14
