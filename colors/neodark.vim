@@ -14,7 +14,7 @@ highlight link           EndOfBuffer NonText
 highlight TermCursor     cterm=reverse
 "highlight TermCursorNC   cleared
 highlight NonText        ctermfg=12
-highlight Directory      ctermfg=4
+highlight Directory      ctermfg=6
 highlight ErrorMsg       ctermfg=15 ctermbg=1
 highlight IncSearch      ctermfg=3 ctermbg=8 cterm=underline
 highlight Search         ctermfg=3 ctermbg=8 cterm=underline
