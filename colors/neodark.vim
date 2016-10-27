@@ -68,6 +68,9 @@ highlight Underlined     cterm=underline ctermfg=5
 highlight Ignore         ctermfg=15
 highlight Error          ctermfg=15 ctermbg=none cterm=underline
 highlight Todo           ctermfg=0 ctermbg=11
+
+highlight link           QuickFixLine   Visual
+
 "highlight link           String         Constant
 "highlight link           Character      Constant
 "highlight link           Number         Constant
