@@ -111,3 +111,9 @@ highlight haskellLet ctermfg=14
 highlight haskellDeclKeyword ctermfg=14
 highlight haskellDecl ctermfg=14
 highlight haskellForeignKeywords ctermfg=14
+
+" neosnippet
+neosnippetConcealExpandSnippets ctermfg=5
+
+" netrw
+highlight netrwTreeBar ctermfg=0
