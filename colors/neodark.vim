@@ -117,3 +117,6 @@ highlight neosnippetConcealExpandSnippets ctermfg=5
 
 " netrw
 highlight netrwTreeBar ctermfg=0
+
+" tagbar
+highlight link TagbarHighlight Visual
