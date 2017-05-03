@@ -57,7 +57,7 @@ highlight CursorLine     cterm=none ctermbg=8
 "highlight ColorColumn    ctermbg=224
 
 highlight MatchParen     cterm=bold ctermbg=none ctermfg=15
-highlight Comment        ctermfg=4
+highlight Comment        ctermfg=4 cterm=italic
 highlight Constant       ctermfg=1
 highlight Special        ctermfg=5
 highlight Identifier     cterm=none ctermfg=6
@@ -67,7 +67,7 @@ highlight Type           ctermfg=2
 highlight Underlined     cterm=underline ctermfg=5
 highlight Ignore         ctermfg=15
 highlight Error          ctermfg=15 ctermbg=none cterm=underline
-highlight Todo           ctermfg=0 ctermbg=11
+highlight Todo           ctermfg=4 ctermbg=10 cterm=bold,italic
 
 highlight link           QuickFixLine   Visual
 
