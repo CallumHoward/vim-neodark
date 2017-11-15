@@ -49,8 +49,8 @@ highlight Pmenu          ctermfg=7 ctermbg=10
 highlight PmenuSel       ctermfg=15 ctermbg=11
 highlight PmenuSbar      ctermbg=10
 highlight PmenuThumb     ctermbg=11
-highlight TabLine        cterm=none ctermfg=7 ctermbg=10
-highlight TabLineSel     cterm=none ctermfg=15 ctermbg=11
+highlight TabLine        cterm=none ctermfg=4 ctermbg=10
+highlight TabLineSel     cterm=none ctermfg=6 ctermbg=12
 highlight TabLineFill    ctermfg=0 ctermbg=0
 "highlight CursorColumn   ctermbg=7
 highlight CursorLine     cterm=none ctermbg=8
