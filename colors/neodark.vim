@@ -25,7 +25,7 @@ highlight CursorLineNr   cterm=none ctermfg=14 ctermbg=8
 highlight Question       ctermfg=2
 highlight StatusLine     cterm=bold,reverse
 highlight StatusLineNC   cterm=reverse ctermfg=15 ctermbg=11
-highlight VertSplit      cterm=reverse ctermfg=15
+highlight VertSplit      cterm=reverse ctermfg=15 ctermbg=15
 highlight Title          ctermfg=5
 highlight Visual         ctermbg=12
 highlight WarningMsg     ctermfg=1
