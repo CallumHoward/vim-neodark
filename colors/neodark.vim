@@ -120,3 +120,39 @@ highlight netrwTreeBar ctermfg=0
 
 " tagbar
 highlight link TagbarHighlight Visual
+
+" signature
+highlight SignatureMarkText ctermfg=6 cterm=bold
+
+" gitgutter
+hi GitGutterAdd ctermfg=2
+hi GitGutterChange ctermfg=3
+hi GitGutterDelete ctermfg=1
+hi GitGutterChangeDelete ctermfg=1
+
+" coc.vim
+hi CocInfoSign ctermfg=11
+hi link CocInfoFloat Comment
+hi CocHintSign ctermfg=12
+hi link CocHintFloat Comment
+hi CocErrorSign ctermfg=58
+hi link CocErrorFloat Comment
+hi CocWarningSign ctermfg=52
+hi link CocWarningFloat Comment
+
+" neomake
+hi NeomakeError cterm=underline
+hi NeomakeWarning cterm=underline
+hi NeomakeInfo cterm=underline
+hi NeomakeMessage cterm=underline
+hi NeomakeErrorSign ctermfg=58
+hi NeomakeVirtualtextError cterm=italic ctermfg=58
+hi NeomakeWarningSign ctermfg=52
+hi NeomakeVirtualtextWarning cterm=italic ctermfg=52
+hi NeomakeInfoSign ctermfg=11
+hi NeomakeVirtualtextInfo cterm=italic ctermfg=11
+hi NeomakeMessageSign ctermfg=12
+hi NeomakeVirtualtextMessage cterm=italic ctermfg=52
+
+" git-messenger
+hi link gitmessengerPopupNormal Pmenu
