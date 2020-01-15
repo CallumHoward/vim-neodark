@@ -13,7 +13,7 @@ highlight SpecialKey     ctermfg=12
 highlight link           EndOfBuffer NonText
 highlight TermCursor     cterm=reverse
 "highlight TermCursorNC   cleared
-highlight NonText        ctermfg=12
+highlight NonText        ctermfg=235
 highlight Directory      ctermfg=6
 highlight ErrorMsg       ctermfg=15 ctermbg=1
 highlight IncSearch      ctermfg=3 ctermbg=8 cterm=underline
@@ -30,7 +30,7 @@ highlight Title          ctermfg=5
 highlight Visual         ctermbg=12
 highlight WarningMsg     ctermfg=1
 highlight WildMenu       ctermfg=0 ctermbg=11
-highlight Folded         ctermfg=4 ctermbg=none
+highlight Folded         cterm=bold ctermfg=4 ctermbg=none
 highlight FoldColumn     ctermfg=4 ctermbg=none
 
 highlight DiffAdd        ctermfg=83 ctermbg=10
@@ -38,22 +38,22 @@ highlight DiffChange     ctermbg=10
 highlight DiffDelete     cterm=bold ctermfg=160 ctermbg=10
 highlight DiffText       cterm=none ctermfg=191 ctermbg=0
 highlight SignColumn     ctermfg=11 ctermbg=none
-"highlight Conceal        ctermfg=7 ctermbg=242
+highlight Conceal        cterm=bold ctermfg=9 ctermbg=none
 
 highlight SpellBad       cterm=underline ctermbg=none ctermfg=167
 highlight SpellCap       cterm=underline ctermbg=none ctermfg=167
 highlight SpellRare      cterm=underline ctermbg=none ctermfg=none
 highlight SpellLocal     cterm=underline ctermbg=none ctermfg=none
 
-highlight Pmenu          ctermfg=7 ctermbg=10
+highlight Pmenu          ctermfg=7 ctermbg=12
 highlight PmenuSel       ctermfg=15 ctermbg=11
-highlight PmenuSbar      ctermbg=10
+highlight PmenuSbar      ctermbg=12
 highlight PmenuThumb     ctermbg=11
 highlight TabLine        cterm=none ctermfg=4 ctermbg=10
 highlight TabLineSel     cterm=none ctermfg=6 ctermbg=12
 highlight TabLineFill    ctermfg=0 ctermbg=0
-"highlight CursorColumn   ctermbg=7
 highlight CursorLine     cterm=none ctermbg=8
+highlight CursorColumn   cterm=none ctermbg=8
 "highlight ColorColumn    ctermbg=224
 
 highlight MatchParen     cterm=bold ctermbg=none ctermfg=15
