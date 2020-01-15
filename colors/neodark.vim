@@ -96,6 +96,10 @@ highlight link           QuickFixLine   Visual
 "highlight link           SpecialComment Special
 "highlight link           Debug          Special
 
+" diff
+highlight diffRemoved ctermfg=160
+highlight diffAdded ctermfg=83
+
 " tweaks for octol/vim-cpp-enhanced-highlight
 highlight Function ctermfg=7
 highlight cCustomClass ctermfg=14
