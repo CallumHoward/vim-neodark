@@ -143,6 +143,9 @@ hi CocErrorSign ctermfg=58
 hi link CocErrorFloat Comment
 hi CocWarningSign ctermfg=52
 hi link CocWarningFloat Comment
+hi CocHighlightText cterm=underline ctermfg=none ctermbg=none
+"hi link HighlightedyankRegion Visual
+hi HighlightedyankRegion ctermbg=4
 
 " neomake
 hi NeomakeError cterm=underline
