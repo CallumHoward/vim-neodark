@@ -163,3 +163,6 @@ hi NeomakeVirtualtextMessage cterm=italic ctermfg=52
 
 " git-messenger
 hi link gitmessengerPopupNormal Pmenu
+
+" indentLine
+hi IndentGuide ctermfg=232
