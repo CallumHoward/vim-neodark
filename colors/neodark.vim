@@ -79,7 +79,7 @@ highlight link           QuickFixLine   Visual
 "highlight link           Function       Identifier
 "highlight link           Conditional    Statement
 "highlight link           Repeat         Statement
-"highlight link           Label          Statement
+highlight Label           ctermfg=2
 "highlight link           Operator       Statement
 "highlight link           Keyword        Statement
 "highlight link           Exception      Statement
@@ -144,8 +144,19 @@ hi link CocErrorFloat Comment
 hi CocWarningSign ctermfg=52
 hi link CocWarningFloat Comment
 hi CocHighlightText cterm=underline ctermfg=none ctermbg=none
+hi CocErrorHighlight ctermbg=234
+hi CocWarningHighlight ctermbg=234
+hi CocInfoHighlight ctermbg=234
+hi CocHighlightRead cterm=underline
+hi CocHighlightWrite cterm=underline
+"hi CocHighlightRead ctermbg=235
+"hi CocHighlightWrite ctermbg=235
+hi CocCodeLens cterm=italic ctermfg=11 ctermbg=8
 "hi link HighlightedyankRegion Visual
 hi HighlightedyankRegion ctermbg=4
+
+" blamer
+hi Blamer cterm=italic ctermfg=11 ctermbg=8
 
 " neomake
 hi NeomakeError cterm=underline
@@ -166,3 +177,7 @@ hi link gitmessengerPopupNormal Pmenu
 
 " indentLine
 hi IndentGuide ctermfg=232
+
+" vim-jsx-pretty
+hi jsxComponentName ctermfg=6
+hi jsxTagName ctermfg=14
