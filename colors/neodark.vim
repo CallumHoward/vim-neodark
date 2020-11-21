@@ -136,13 +136,13 @@ hi GitGutterChangeDelete ctermfg=1
 
 " coc.vim
 hi CocInfoSign ctermfg=11
-hi link CocInfoFloat Comment
+hi link CocInfoFloat Normal
 hi CocHintSign ctermfg=12
-hi link CocHintFloat Comment
+hi link CocHintFloat Normal
 hi CocErrorSign ctermfg=58
-hi link CocErrorFloat Comment
+hi link CocErrorFloat Normal
 hi CocWarningSign ctermfg=52
-hi link CocWarningFloat Comment
+hi link CocWarningFloat Normal
 hi CocHighlightText cterm=underline ctermfg=none ctermbg=none
 hi CocErrorHighlight ctermbg=234
 hi CocWarningHighlight ctermbg=234
