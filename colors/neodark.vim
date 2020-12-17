@@ -181,3 +181,6 @@ hi IndentGuide ctermfg=232
 " vim-jsx-pretty
 hi jsxComponentName ctermfg=6
 hi jsxTagName ctermfg=14
+
+" yats
+hi link javaScriptLineComment Comment
